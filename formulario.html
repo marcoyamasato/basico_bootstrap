@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main_formulario.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger">
+                    Sou uma mensagem. Clique <a href="#">aqui</a> para saber mais.
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Últimos posts</h2>
+                <div class="container g-0"> <!-- Removendo as margens (g-0) do container-->
+
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>21/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        
+
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>21/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        
+
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>21/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        
+
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>21/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        
+
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>21/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-end">
+                <div>
+                    <h2>Anunciantes</h2>
+                    <img src="https://via.placeholder.com/180x180">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label class="form-label" for="nome">Nome</label>
+                    <input class="form-control form-control-md" type="text" id="#nome">
+
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control form-control-md" type="email" id="#email">
+
+                    <label class="form-label" for="msg">Mensagem</label>
+                    <textarea class="form-control" id="#msg"></textarea>
+
+                    <label for="termos_uso" class="form-label">Li e concordo com os termos de uso</label>
+                    <input type="checkbox" id="termos_uso">
+
+                    <br>
+
+                    <label for="termos_uso2" class="form-check-label">Li e concordo com os termos de uso</label>
+                    <input type="checkbox" id="termos_uso2" class="form-check-input">
+
+
+                    <div class="form-check form-switch">
+                        <label for="termos_uso3" class="form-check-label">Li e concordo com os termos de uso</label>    
+                        <input type="checkbox" id="termos_uso3" class="form-check-input">                    
+                    </div>
+
+                    <button class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
